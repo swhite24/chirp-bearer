@@ -1,0 +1,27 @@
+{
+  "name": "chirp-bearer",
+  "version": "0.0.1",
+  "description": "Obtain application-only authentication token (bearer token) via twitter api",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/swhite24/chirp-bearer.git"
+  },
+  "keywords": [
+    "twitter",
+    "oauth",
+    "bearer",
+    "token"
+  ],
+  "author": "Steven White <swhitewvu24@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swhite24/chirp-bearer/issues"
+  },
+  "dependencies": {
+    "request": "~2.34.0"
+  }
+}
