@@ -28,7 +28,9 @@ module.exports = function (key, secret) {
 			},
 			body: authBody
 		}, function (err, res, body) {
-			cb(err, body);
+			if (err) return cb(err);
+			if (res.statusCode >= 400) return cb(body);
+			cb(null, body);
 		});
 	}
 
