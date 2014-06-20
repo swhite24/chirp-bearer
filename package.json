@@ -4,7 +4,7 @@
   "description": "Obtain application-only authentication token (bearer token) via twitter api",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "request": "~2.34.0"
+  },
+  "devDependencies": {
+    "should": "~4.0.4"
   }
 }
