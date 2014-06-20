@@ -1,5 +1,7 @@
 # chirp-bearer
 
+[![Build Status](https://travis-ci.org/swhite24/chirp-bearer.png)](https://travis-ci.org/swhite24/chirp-bearer)
+
 Simple module to generate an [application-only auth token for twitter](https://dev.twitter.com/docs/auth/application-only-auth).
 
 ## Install
